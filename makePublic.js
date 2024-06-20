@@ -1,39 +1,39 @@
-const { Octokit } = require("@octokit/rest");
+//************************please uncomment the following and run************************
 
-const token = 'access_token';
+// const { Octokit } = require("@octokit/rest");
 
-const octokit = new Octokit({
-  auth: token
-});
+// const token = 'access_token';
 
-async function makeAllReposPublic() {
-  try {
-    const { data: repos } = await octokit.repos.listForAuthenticatedUser({
-      per_page: 100
-    });
+// const octokit = new Octokit({
+//   auth: token
+// });
 
-    for (const repo of repos) {
-      if (repo.private) {
-        console.log(`Making repository '${repo.name}' public...`);
+// async function makeAllReposPublic() {
+//   try {
+//     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
+//       per_page: 100
+//     });
 
-        //************************please uncomment the following and run************************
-        // await octokit.repos.update({
-        //   owner: repo.owner.login,
-        //   repo: repo.name,
-        //   private: false
-        // });
-        //**************************************************************************************
+//     for (const repo of repos) {
+//       if (repo.private) {
+//         console.log(`Making repository '${repo.name}' public...`);
+
+//         await octokit.repos.update({
+//           owner: repo.owner.login,
+//           repo: repo.name,
+//           private: false
+//         });
         
-        console.log(`Repository '${repo.name}' is now public.`);
-      } else {
-        console.log(`Repository '${repo.name}' is already public.`);
-      }
-    }
+//         console.log(`Repository '${repo.name}' is now public.`);
+//       } else {
+//         console.log(`Repository '${repo.name}' is already public.`);
+//       }
+//     }
 
-    console.log("All repositories have been processed.");
-  } catch (error) {
-    console.error("An error occurred:", error);
-  }
-}
+//     console.log("All repositories have been processed.");
+//   } catch (error) {
+//     console.error("An error occurred:", error);
+//   }
+// }
 
-makeAllReposPublic();
+// makeAllReposPublic();
