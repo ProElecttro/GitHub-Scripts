@@ -15,11 +15,15 @@ async function makeAllReposPublic() {
     for (const repo of repos) {
       if (repo.private) {
         console.log(`Making repository '${repo.name}' public...`);
-        await octokit.repos.update({
-          owner: repo.owner.login,
-          repo: repo.name,
-          private: false
-        });
+
+        //************************please uncomment the following and run************************
+        // await octokit.repos.update({
+        //   owner: repo.owner.login,
+        //   repo: repo.name,
+        //   private: false
+        // });
+        //**************************************************************************************
+        
         console.log(`Repository '${repo.name}' is now public.`);
       } else {
         console.log(`Repository '${repo.name}' is already public.`);
