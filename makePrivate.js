@@ -1,7 +1,6 @@
 const { Octokit } = require("@octokit/rest");
 
-// Set your GitHub personal access token
-const token = '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';
+const token = 'your token';
 
 const octokit = new Octokit({
   auth: token
@@ -9,13 +8,11 @@ const octokit = new Octokit({
 
 async function makeAllReposPrivate() {
   try {
-    // Get all repositories for the authenticated user
     const { data: repos } = await octokit.repos.listForAuthenticatedUser({
       per_page: 100,
       affiliation: 'owner'
     });
-
-    // Loop through each repository and make it private
+    
     for (const repo of repos) {
       if (repo.fork && !repo.private) {
         console.log(`Skipping repository '${repo.name}' as it is a public fork.`);

@@ -1,5 +1,3 @@
-//************************please uncomment the following and run************************
-
 const { Octokit } = require("@octokit/rest");
 
 const token = 'your acces_token';
