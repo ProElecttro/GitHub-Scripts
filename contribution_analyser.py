@@ -1,7 +1,7 @@
 import requests
 
 org = 'WebOps-and-Blockchain-Club'
-token = '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'
+token = 'your-token'
 
 def get_org_members(org, token, page):
     url = f'https://api.github.com/orgs/{org}/members?page={page}&per_page=30'
