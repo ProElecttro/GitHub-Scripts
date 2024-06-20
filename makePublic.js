@@ -2,7 +2,7 @@
 
 const { Octokit } = require("@octokit/rest");
 
-const token = 'your access token';
+const token = 'your acces_token';
 
 const octokit = new Octokit({
   auth: token
