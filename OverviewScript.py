@@ -4,7 +4,7 @@ from datetime import datetime
 # Set your GitHub username, repository, and personal access token
 username = 'WebOps-and-Blockchain-Club'
 repository = 'udaan-app-client'
-token = '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'
+token = 'your-token'
 
 # Define the base GitHub API URL
 base_url = f'https://api.github.com/repos/{username}/{repository}'
