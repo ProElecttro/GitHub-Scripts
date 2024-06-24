@@ -53,15 +53,6 @@ Toggles the privacy setting of repositories to public. This script makes your re
     node makePrivate.js
     python cloner.py
     ```
-
-## Contributing
-
-Feel free to contribute to this project by submitting pull requests, reporting issues, or suggesting improvements. Make sure to follow the contribution guidelines.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Replace `yourusername` with your actual GitHub username, and `youraccesstoken` with your actual GitHub access token. Make sure to update the repository URL if it's different.
