@@ -58,7 +58,7 @@ Toggles the privacy setting of repositories to public. This script makes your re
 Replace `yourusername` with your actual GitHub username, and `youraccesstoken` with your actual GitHub access token. Make sure to update the repository URL if it's different.
 
 
-# PLEASE CHECKOUT OTHER REPOS AS WELL: 
+# PLEASE CHECKOUT ONLINE CHESS GAME REPOS AS WELL: 
 ****(the link given in the resume is a wrong link for online chess game, Extremely sorry for that, please follow the below link for chess game) 
 **CHESS:** https://github.com/ProElecttro/my_chess.git
 **Chess Live** http://15.206.72.127:3000/
