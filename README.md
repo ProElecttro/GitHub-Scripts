@@ -1,3 +1,8 @@
+
+# PLEASE CHECKOUT OTHER REPOS AS WELL:
+**CHESS:** https://github.com/ProElecttro/my_chess.git
+**Chess Live** http://15.206.72.127:3000/
+
 # GitHub-Scripts
 
 GitHub-Scripts is a collection of scripts designed to automate various Git operations using JavaScript and Python. These scripts help streamline repository management, including tasks such as toggling repository privacy, cloning and migrating repositories, analyzing contributions, and automating pull request reviews.
