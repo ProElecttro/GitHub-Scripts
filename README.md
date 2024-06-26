@@ -1,8 +1,3 @@
-
-# PLEASE CHECKOUT OTHER REPOS AS WELL:
-**CHESS:** https://github.com/ProElecttro/my_chess.git
-**Chess Live** http://15.206.72.127:3000/
-
 # GitHub-Scripts
 
 GitHub-Scripts is a collection of scripts designed to automate various Git operations using JavaScript and Python. These scripts help streamline repository management, including tasks such as toggling repository privacy, cloning and migrating repositories, analyzing contributions, and automating pull request reviews.
@@ -58,6 +53,12 @@ Toggles the privacy setting of repositories to public. This script makes your re
     node makePrivate.js
     python cloner.py
     ```
----
+--
 
 Replace `yourusername` with your actual GitHub username, and `youraccesstoken` with your actual GitHub access token. Make sure to update the repository URL if it's different.
+
+
+# PLEASE CHECKOUT OTHER REPOS AS WELL: 
+****(the link given in the resume is a wrong link for online chess game, Extremely sorry for that, please follow the below link for chess game) 
+**CHESS:** https://github.com/ProElecttro/my_chess.git
+**Chess Live** http://15.206.72.127:3000/
